@@ -1,16 +1,15 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Manuel David Alfaro
+avatar: /static/images/manuavatar.jpg
+occupation: Desarrollador Front End
+linkedin: https://www.linkedin.com/in/manueldavidalfaro/
+youtube: https://www.youtube.com/@manudeiv
+github: https://github.com/ManuDve/
+email: m.alfaroardiles@gmail.com
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+¡Hola! Soy Diseñador Gráfico por profesión y Programador autodidacta. Desde el 2017 he realizado proyectos web en modalidad Freelance y actualmente me dedico al Desarrollo Front End.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+A través de mi Blog busco relatar mi experiencia; desde los inicios en la adolescencia como un vil script-kiddie, hasta la actualidad donde recorro el camino de la reconversión.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+<strong>¿Estás en el rubro TI y necesitas un Desarrollador? <a href="mailto:m.alfaroardiles@gmail.com">¡Contáctame!</a> </strong>

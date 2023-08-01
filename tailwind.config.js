@@ -28,7 +28,7 @@ module.exports = {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.teal,
+        primary: colors.emerald,
         gray: colors.neutral,
       },
       typography: (theme) => ({
@@ -93,7 +93,7 @@ module.exports = {
             'ul li::marker': {
               backgroundColor: theme('colors.gray.500'),
             },
-            strong: { color: theme('colors.gray.600') },
+            strong: { color: theme('colors.emerald.700') },
             blockquote: {
               color: theme('colors.gray.900'),
               borderLeftColor: theme('colors.gray.200'),
@@ -144,7 +144,7 @@ module.exports = {
             'ul li::marker': {
               backgroundColor: theme('colors.gray.400'),
             },
-            strong: { color: theme('colors.gray.100') },
+            strong: { color: theme('colors.emerald.200') },
             thead: {
               th: {
                 color: theme('colors.gray.100'),

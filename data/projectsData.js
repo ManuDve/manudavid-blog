@@ -1,19 +1,9 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
-  },
-  {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'F1ashback',
+    description: `Desarrollo de sitio web con el calendario actual de carreras de la Fórmula 1 con consumo de datos de una API REST pública`,
+    imgSrc: '/static/images/f1ashback_v2.jpg',
+    href: 'https://manudve.github.io/f1ashback/',
   },
 ]
 
