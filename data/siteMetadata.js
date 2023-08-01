@@ -1,14 +1,15 @@
 const siteMetadata = {
-  title: 'Manuel David - Desarrollador Front End',
+  title: 'Manuel David Alfaro - Desarrollador Front End',
   author: 'Manuel David Alfaro',
   headerTitle: '',
-  description: 'Blog personal con relatos, guías, tutoriales, discusiones, noticias, etc.',
+  description:
+    'Soy Desarrollador Front-End, Programador autodidacta y Diseñador Gráfico de profesión. Me dedico a crear experiencias y productos digitales de calidad.',
   language: 'es',
   theme: 'system', // system, dark or light
   siteUrl: 'https://manudavid-blog.vercel.app/',
   siteRepo: 'https://github.com/ManuDve/manudavid-blog',
   siteLogo: '/static/images/logo.svg',
-  image: '/static/images/avatar.png',
+  image: '/static/images/manuavatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'm.alfaroardiles@gmail.com',
   github: 'https://github.com/ManuDve/',

@@ -12,4 +12,4 @@ email: m.alfaroardiles@gmail.com
 
 A través de mi Blog busco relatar mi experiencia; desde los inicios en la adolescencia como un vil script-kiddie, hasta la actualidad donde recorro el camino de la reconversión.
 
-<strong>¿Estás en el rubro TI y necesitas un Desarrollador? <a href="mailto:m.alfaroardiles@gmail.com">¡Contáctame!</a> </strong>
+¿Estás en el rubro TI y necesitas un Desarrollador? <a href="mailto:m.alfaroardiles@gmail.com">¡Contáctame!</a>
