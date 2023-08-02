@@ -42,7 +42,7 @@ const Card = ({ title, description, imgSrc, href, preview }) => (
         {href && (
           <Link
             href={href}
-            className="mr-3 rounded border border-emerald-600 p-2 text-emerald-600 hover:bg-emerald-600 hover:text-white dark:border-emerald-400 dark:text-emerald-400 dark:hover:bg-emerald-400 dark:hover:text-white"
+            className="boton mr-3 rounded border border-emerald-700 p-2 text-emerald-700 hover:bg-emerald-700 hover:text-white dark:border-emerald-400 dark:text-emerald-400 dark:hover:bg-emerald-400 dark:hover:text-white"
             aria-label={`Link to ${title}`}
           >
             Código
@@ -51,7 +51,7 @@ const Card = ({ title, description, imgSrc, href, preview }) => (
         {href && (
           <Link
             href={preview}
-            className="rounded border border-emerald-600 p-2 text-emerald-600 hover:bg-emerald-600 hover:text-white dark:border-emerald-400 dark:text-emerald-400 dark:hover:bg-emerald-400 dark:hover:text-white"
+            className="boton rounded border border-emerald-700 p-2 text-emerald-700 hover:bg-emerald-700 hover:text-white dark:border-emerald-400 dark:text-emerald-400 dark:hover:bg-emerald-400 dark:hover:text-white"
             aria-label={`Link to ${title}`}
           >
             Previsualizar
