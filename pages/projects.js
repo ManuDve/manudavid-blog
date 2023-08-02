@@ -13,7 +13,7 @@ export default function Projects() {
             Proyectos
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            ¡Puedes revisar la vista previa o el código de fuente del Proyecto!
+            ¡Puedes revisar el código de fuente y previsualzar el Proyecto!
           </p>
         </div>
         <div className="container py-12">
@@ -25,6 +25,7 @@ export default function Projects() {
                 description={d.description}
                 imgSrc={d.imgSrc}
                 href={d.href}
+                preview={d.preview}
               />
             ))}
           </div>

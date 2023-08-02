@@ -1,7 +1,7 @@
 import Image from './Image'
 import Link from './Link'
 
-const Card = ({ title, description, imgSrc, href }) => (
+const Card = ({ title, description, imgSrc, href, preview }) => (
   <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
     <div
       className={`${
@@ -38,14 +38,23 @@ const Card = ({ title, description, imgSrc, href }) => (
             title
           )}
         </h2>
-        <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
+        <p className="prose mb-6 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
         {href && (
           <Link
             href={href}
-            className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            className="mr-3 rounded border border-emerald-500 bg-transparent py-2 px-4 font-semibold text-emerald-700 hover:border-transparent hover:bg-emerald-500 hover:text-white"
             aria-label={`Link to ${title}`}
           >
-            Ver el Proyecto &rarr;
+            Código
+          </Link>
+        )}
+        {href && (
+          <Link
+            href={preview}
+            className="rounded border border-emerald-500 bg-transparent py-2 px-4 font-semibold text-emerald-700 hover:border-transparent hover:bg-emerald-500 hover:text-white"
+            aria-label={`Link to ${title}`}
+          >
+            Previsualizar
           </Link>
         )}
       </div>
