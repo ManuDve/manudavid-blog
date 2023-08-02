@@ -80,13 +80,13 @@ const Skills = () => {
           sequence={[
             '¡Hola! Me llamo Manuel', // Types 'One'
             3000, // Waits 1s
-            'Construyo cosas en la Web', // Deletes 'One' and types 'Two'
+            'Construyo cosas web', // Deletes 'One' and types 'Two'
             3000, // Waits 2s
             'Codificar me apasiona', // Types 'Three' without deleting 'Two'
             3000,
-            () => {
-              console.log('Sequence completed')
-            },
+            /* () => {
+              console.log('Secuencia completada!')
+            }, */
           ]}
           wrapper="h1"
           cursor={true}
@@ -96,10 +96,13 @@ const Skills = () => {
         <p className="pt-6 text-lg leading-7 text-gray-500 dark:text-gray-400">
           {siteMetadata.description}
         </p>
-        <p className="pb-8 text-lg leading-7 text-gray-500 dark:text-gray-400">
+        <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
           En mi Blog podrás encontrar contenido de temas interesantes que he aprendido, relatos y
-          experiencias. Este sitio fue creado con <strong>Nextjs y Tailwind CSS.</strong>{' '}
-          ¡Contáctame y conoce mi stack!
+          experiencias. Este sitio fue creado con <strong>Nextjs y Tailwind CSS,</strong> te sugiero
+          analizar este sitio con Lighthouse.
+        </p>
+        <p className="pb-4 text-lg leading-7 text-gray-500 dark:text-gray-400">
+          ¿Estás interesado en sumarme a tu equipo? ¡Contáctame y conoce mi stack!
         </p>
 
         <div className="mb-3 flex space-x-4">
