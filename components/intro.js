@@ -1,5 +1,7 @@
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
+import { TypeAnimation } from 'react-type-animation'
+
 import {
   SiReact,
   SiHtml5,
@@ -73,17 +75,31 @@ const Skills = () => {
   return (
     <>
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-        <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          ¡Hola!
-        </h1>
+        <TypeAnimation
+          className="my-8 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
+          sequence={[
+            '¡Hola! Me llamo Manuel', // Types 'One'
+            3000, // Waits 1s
+            'Construyo soluciones web', // Deletes 'One' and types 'Two'
+            3000, // Waits 2s
+            'Aprender es mi pasión', // Types 'Three' without deleting 'Two'
+            3000,
+            () => {
+              console.log('Sequence completed')
+            },
+          ]}
+          wrapper="h1"
+          cursor={true}
+          repeat={Infinity}
+        />
 
-        <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+        <p className="pt-6 text-lg leading-7 text-gray-500 dark:text-gray-400">
           {siteMetadata.description}
         </p>
-        <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-          En mi Blog podrás encontrar contenido de temas que he aprendido o he encontrado
-          interesantes, relatos y experiencias. Este sitio fue creado con{' '}
-          <strong>Nextjs y Tailwind CSS.</strong> ¡Contáctame y conoce mi stack!:
+        <p className="pb-8 text-lg leading-7 text-gray-500 dark:text-gray-400">
+          En mi Blog podrás encontrar contenido de temas interesantes que he aprendido, relatos y
+          experiencias. Este sitio fue creado con <strong>Nextjs y Tailwind CSS.</strong>{' '}
+          ¡Contáctame y conoce mi stack!
         </p>
 
         <div className="mb-3 flex space-x-4">

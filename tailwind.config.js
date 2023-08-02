@@ -3,7 +3,7 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   experimental: {
-    optimizeUniversalDefaults: true,
+    optimizeUniversalDefaults: false,
   },
   content: [
     './pages/**/*.js',
@@ -144,7 +144,7 @@ module.exports = {
             'ul li::marker': {
               backgroundColor: theme('colors.gray.400'),
             },
-            strong: { color: theme('colors.emerald.200') },
+            strong: { color: theme('colors.emerald.400') },
             thead: {
               th: {
                 color: theme('colors.gray.100'),

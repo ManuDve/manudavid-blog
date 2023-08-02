@@ -1,0 +1,103 @@
+---
+title: 'Inicios en la Web'
+date: '2023-08-01'
+tags: ['relatos', 'html', 'css']
+draft: false
+summary: 'Cómo conocí el Desarrollo Web en la infancia, sin internet y sin tener idea de lo que el futuro que deparaba.'
+images: ['/static/images/aprender.jpg']
+authors: ['default']
+---
+
+# Érase una vez en el año 2002
+
+Tenía casi 11 años, en mi hogar convivíamos 6 personas de las cuales 5 ocupaban el único computador que teníamos en la casa. Aquel año ocurrió un evento especial; no fue el mundial de Corea y Japón, porque Chile no participó; tampoco fue la quiebra de Colo-Colo, el fútbol no me interesó hasta años después; el grandísimo evento que cambió mi vida fue la instalación de **Internet®** que vino con las siguientes características y bajo el siguiente contexto:
+
+- 32kb/s de transferencia.
+- Sin interrupción por llamadas telefónicas.
+- Boom de MSN Messenger por sobre mIRC.
+- Boom creativo de material en Flash.
+- Apogeo del P2P con KaZaA, Emule y la insignia de mi generación: Ares.
+
+El hermano mayor, por jerarquía, era quien más ocupaba dichosa tecnología. Con mis hermanos dividíamos la cantidad de tiempo de forma equitativa, pero el mayor tenía _derecho absoluto, originario y exclusivo_ de poder utilizarlo cuanto le plazca mientras fuera por motivos de estudio. ¿Qué era lo que estudiaba tan arduamente por horas durante la madrugada? Mientras no se viera la pantalla de Autocad, siempre tuve claro que lo que aprendía no tenía que ver con la Universidad.
+
+![juvenal](/static/images/arach00.jpg)
+
+_"Bello recuerdo de Chile siendo eliminado con el estadio coreando a Juvenal Olmos"_
+
+## Un poco tiempo antes
+
+A comienzos del 2000 tuve el privilegio de poder ocupar por más tiempo el preciado y único computador de la casa. Una de las desventajas de aquella época era tener tiempo de sobra y poco que hacer. Por lo tanto, uno de mis pasatiempos era jugar con la aplicación que existiera en el equipo: Paint, Space Pinball, Solitario, exprimir los 16mb de tarjeta gráfica con los juegos que venían en las cajas de cereales y cachurear en los softwares que mis hermanos se conseguían. _Algunos_ de ellos eran para la Universidad: la típica Encarta, programas interactivos de Inglés, el clásico AutoCad, entre otros que mucho no llaman la atención a un joven de 8 primaveras.
+
+Hasta que conocí **Arachnophilia**.
+
+![arachnophilia](/static/images/arach01.png)
+
+Imagen sacada del sitio oficial de [Arachnophilia](https://arachnoid.com/arachnophilia/)
+
+## ¿Qué quería esta Araña?
+
+~~Diseñar webs jajaja, ¿Se entiende? Telaraña = Web~~. Un básico editor de código HTML con la capacidad de previsualizar el resultado. Así fue como comenzó mi travesía de aprender a codificar. Imaginen un niño de 8 años viendo aquella interfaz, sin saber inglés, menos de código, menos de la vida. Para mí en ese entonces sería el equivalente a un niño rata conociendo el Minecraft en pleno 2012. Horas enteras se me iban intentando entender qué hacía cada botón, qué eran estas etiquetas raras que encerraban las palabras. ¿Qué onda con los **gifs** que se pueden colocar? ¡Wow! con un click puedo ver lo que está en código a través de Internet Explorer.
+
+![arachnophilia04](/static/images/arach05.gif)
+
+## Y así hice mi primer deploy, dos años después
+
+Contador de visitas, archivos de dudosa legalidad, música midi de fondo y la mayor cantidad de gifs animados que te puedes imaginar. Aún así, así fue el mejor y primer sitio que hice en la época. Aún recuerdo el link: `http://muchosromsyemuladores.iespana.es`. Lo desarrollé sin internet, un par de años antes y durante el **evento canónico** del internet pude subirlo a uno de los pocos hostings gratuitos que existían en la época y que contaba con documentación en español. En ese entonces fui un crack, en la clase de computación yo era el _hackerman_, no me creían, pero abajo podían leer claramente un texto animado que decía: "esta pagina fue creada por manuel alfaro".
+
+En aquel entonces el sitio estaba realizado con HTML4.01, con estilos en línea y muchas **tablas**.
+
+```html
+<!DOCTYPE html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Mi primer sitio</title>
+  </head>
+  <body style="background-color:orange">
+    <table style="border-collapse:collapse" border="10">
+      <tr height="50" width="250" style="background-color:blue;">
+        <td style="color:white;padding:15px">Hola!</td>
+        <td style="color:red">Bienvenido a mi sitio:</td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+Jamás me hubiese imaginado que lo usaría 13 años después en mis prácticas de Diseño Web para realizar Mailings, de hecho ¿Sabían que antes de **Flexbox** para centrar verticalmente se podían usar propiedades de las tablas?
+
+```html
+<div>
+  <span>Céntrame</span>
+</div>
+```
+
+```css
+div {
+  height: 50px;
+  display: table;
+  border: 1px solid black;
+}
+
+span {
+  display: table-cell;
+  vertical-align: middle;
+}
+```
+
+Pueden revisarlo en [JSFiddle](https://jsfiddle.net/manudv/3rez7pLo/). Imaginen el **alto impacto** que me causó Flexbox cuando conocí las propiedades de centrado horizontal y vertical. Ahora, los viejos trucos no se olvidan y se guardan como un As bajo la manga, nunca se sabe cuando se tendrá que trabajar nuevamente con códigos legacy.
+
+## Una cosa llevó a otra
+
+Y así fue como terminé descubriendo Dreamweaver, Flash y un montón de cosas que eventualmente dejé de lado porque eventualmente me apasioné con mi croquera digital: Photoshop 7.0. Una de las limitaciones de la época para seguir aprendiendo fue la falta de interés y motivación causada por diversos factores: la poca cantidad de material en español que fuera _comprensible para un preadolescente de 12 años_, la mala disposición de usuarios en los **Foros** hispanos para enseñar y lo gigantesco que se veía el panorama al momento de intentar siquiera ahondar en el mundo de la programación.
+
+Mientras que en Foros de programación te enviaban _amablemente_ a leer la documentación, en otros relacionados al Diseño te hacían tutoriales personalizados, se creaban talleres gratuitos de "firmas", existía una hermandad entre comunidades, entre otras bondades del rubro. Claro, ni HTML, ni CSS son lenguajes de programación, pero sí influyen fuertemente en el atractivo que puede generar en el proceso de aprendizaje, como al ver resultados visuales de algo de un lenguaje que, inicialmente, parecía sacado de _Matrix_. Esto influyó en mis decisiones futuras, pero más adelante le encontraría sentido al comportamiento de los programadores frente al novato que busca guía.
+
+![matrix](/static/images/arach06.jpg)
+
+## Un viejo amor
+
+No fue hasta el año 2014 que, como estudiante de Diseño Gráfico, volví a reencontrarme con este viejo amor de la infancia y le volví a dar una nueva oportunidad. Terminé de vuelta en el sendero abandonado. De los arrepentidos es el reino de los cielos, diría un cristiano. El cómo volví a reconectar con este mundo y el cómo pude apreciar aquellos consejos pasados —que de mala gana otros programadores me daban, incluyendo a mi hermano mayor— será una historia para otro momento.
+
+Por ahora solo puedo agradecer a mi viejo amigo arácnido que me convirtió en un Rockstar entre los nerds durante mi infancia. Gracias totales.
+
+![arachnophilia02](/static/images/arach02.png)
