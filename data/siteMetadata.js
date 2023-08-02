@@ -6,7 +6,7 @@ const siteMetadata = {
     'Soy Desarrollador Front-End, Programador autodidacta y Diseñador Gráfico de profesión. Me dedico a crear experiencias y soluciones web de calidad.',
   language: 'es',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://manudavid-blog.vercel.app/',
+  siteUrl: 'https://www.manudavid.cl/',
   siteRepo: 'https://github.com/ManuDve/manudavid-blog',
   siteLogo: '/static/images/logo.svg',
   image: '/static/images/manuavatar.jpg',
