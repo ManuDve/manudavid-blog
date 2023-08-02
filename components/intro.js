@@ -93,15 +93,15 @@ const Skills = () => {
           repeat={Infinity}
         />
 
-        <p className="pt-6 text-lg leading-7 text-gray-500 dark:text-gray-400">
+        <p className=" pb-4 text-lg leading-7 text-gray-500 dark:text-gray-400 md:pt-4 md:pb-2">
           {siteMetadata.description}
         </p>
-        <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-          En mi Blog podrás encontrar contenido de temas interesantes que he aprendido, relatos y
-          experiencias. Este sitio fue creado con <strong>Nextjs y Tailwind CSS,</strong> te sugiero
-          analizar este sitio con Lighthouse.
+        <p className="pb-4 text-lg leading-7 text-gray-500 dark:text-gray-400 md:pb-2">
+          En mi Blog podrás encontrar contenido sobre programación, desarrollo web, guías y relatos
+          de experiencias personales. Este sitio fue creado con{' '}
+          <strong>Nextjs y Tailwind CSS,</strong> te sugiero analizar este sitio con Lighthouse ;).
         </p>
-        <p className="pb-4 text-lg leading-7 text-gray-500 dark:text-gray-400">
+        <p className=" pb-6 text-lg leading-7 text-gray-500 dark:text-gray-400 md:pb-4">
           ¿Estás interesado en sumarme a tu equipo? ¡Contáctame y conoce mi stack!
         </p>
 

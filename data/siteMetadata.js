@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Manuel David Alfaro - Desarrollador Front End',
+  title: 'Manuel David Alfaro - Desarrollador Web',
   author: 'Manuel David Alfaro',
   headerTitle: '',
   description:
