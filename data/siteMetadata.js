@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Manuel David Alfaro',
   headerTitle: '',
   description:
-    'Soy Desarrollador Front-End, Programador autodidacta y Diseñador Gráfico de profesión. Me dedico a crear experiencias y productos digitales de calidad.',
+    'Soy Desarrollador Front-End, Programador autodidacta y Diseñador Gráfico de profesión. Me dedico a crear experiencias y soluciones web de calidad.',
   language: 'es',
   theme: 'system', // system, dark or light
   siteUrl: 'https://manudavid-blog.vercel.app/',

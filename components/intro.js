@@ -80,9 +80,9 @@ const Skills = () => {
           sequence={[
             '¡Hola! Me llamo Manuel', // Types 'One'
             3000, // Waits 1s
-            'Construyo soluciones web', // Deletes 'One' and types 'Two'
+            'Construyo cosas en la Web', // Deletes 'One' and types 'Two'
             3000, // Waits 2s
-            'Aprender es mi pasión', // Types 'Three' without deleting 'Two'
+            'Codificar me apasiona', // Types 'Three' without deleting 'Two'
             3000,
             () => {
               console.log('Sequence completed')
