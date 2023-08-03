@@ -6,7 +6,7 @@ const siteMetadata = {
     'Soy Desarrollador Web, Programador autodidacta y Diseñador Gráfico de profesión. Me dedico a crear experiencias y soluciones web de calidad.',
   language: 'es',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://www.manudavid.cl/',
+  siteUrl: 'https://www.manudavid.cl',
   siteRepo: 'https://github.com/ManuDve/manudavid-blog',
   siteLogo: '/static/images/logo.svg',
   image: '/static/images/manuavatar.jpg',
