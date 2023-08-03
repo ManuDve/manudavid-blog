@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Manuel David Alfaro',
   headerTitle: '',
   description:
-    'Soy Desarrollador Web, Programador autodidacta y Diseñador Gráfico de profesión. Me dedico a crear experiencias y soluciones web de calidad.',
+    'Soy Desarrollador Web, Programador autodidacta y Diseñador Gráfico de profesión. Me dedico a crear experiencias y soluciones digitales funcionales de forma creativa.',
   language: 'es',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.manudavid.cl',
