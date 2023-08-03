@@ -76,7 +76,7 @@ const Skills = () => {
     <>
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
         <TypeAnimation
-          className="my-8 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
+          className="my-8 text-3xl font-extrabold leading-9 tracking-tight text-gray-800 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
           sequence={[
             '¡Hola! Me llamo Manuel', // Types 'One'
             3000, // Waits 1s
@@ -93,15 +93,15 @@ const Skills = () => {
           repeat={Infinity}
         />
 
-        <p className=" pb-4 text-lg leading-7 text-gray-500 dark:text-gray-400 md:pt-4 md:pb-2">
+        <p className=" pb-4 text-lg leading-7 text-gray-700 dark:text-gray-400 md:pt-4 md:pb-2">
           {siteMetadata.description}
         </p>
-        <p className="pb-4 text-lg leading-7 text-gray-500 dark:text-gray-400 md:pb-2">
+        <p className="pb-4 text-lg leading-7 text-gray-700 dark:text-gray-400 md:pb-2">
           En mi Blog podrás encontrar contenido sobre programación, desarrollo web, guías y relatos
           de experiencias personales. Este sitio fue creado con{' '}
           <strong>Nextjs y Tailwind CSS,</strong> te sugiero analizar este sitio con Lighthouse ;).
         </p>
-        <p className=" pb-6 text-lg leading-7 text-gray-500 dark:text-gray-400 md:pb-4">
+        <p className=" pb-6 text-lg leading-7 text-gray-700 dark:text-gray-400 md:pb-4">
           ¿Estás interesado en sumarme a tu equipo? ¡Contáctame y conoce mi stack!
         </p>
 
