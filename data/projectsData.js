@@ -20,6 +20,13 @@ const projectsData = [
     href: 'https://www.workmining.cl/',
     preview: 'https://www.workmining.cl/',
   },
+  {
+    title: 'WMTechnologies',
+    description: `Sitio Web realizado para WM Technologies utilizando WordPress con gráficas customizadas, slider, galerías de imágenes y multilenguaje`,
+    imgSrc: '/static/images/wmtech.jpg',
+    href: 'https://www.wmtechnologies.cl/',
+    preview: 'https://www.wmtechnologies.cl/',
+  },
 ]
 
 export default projectsData
