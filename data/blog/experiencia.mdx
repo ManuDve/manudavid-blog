@@ -1,27 +1,53 @@
 ---
-title: 'Tengo 20 años de experiencia'
-date: '2023-08-01'
-tags: ['relatos', 'html', 'css']
+title: 'Comprendiendo JavaScript: 01'
+date: '2023-08-15'
+tags: ['legacy', 'javascript', 'guia', 'estudio', 'tips', 'español']
 draft: true
-summary: '¿Cómo le explico a un posible empleador que tengo 20 años de experiencia?'
-images: ['/static/images/canada/mountains.jpg', '/static/images/canada/toronto.jpg']
+summary: 'Cómo entender la evolución del ecosistema de JavaScript en procesos modernos de desarrollo Front-End, primera parte.'
+images: ['/static/images/blog/post-03/portada.jpg']
 authors: ['default']
 ---
 
-# En la entrevista
+# JavaScript moderno
 
-Imagina el siguiente escenario: Estás en una entrevista buscando tu primera oportunidad laboral con **contrato**, llevas años programando; has vendido aplicaciones a amigos, conocidos e incluso llegaste a tener un cliente fijo; inevitablemente te tienes que presentar y se te ocurre la genial idea de decir honestamente tus años de experiencia. Una cifra descomunal, digna del senior más senior, del crack entre cracks, maestro, mente suprema, inigualable...
+Aprender JavaScript moderno es una tarea sumamente dificil si no estuviste desde el comienzo. Es normal hoy en día ver ofertas de trabajo que incluyen distintas herramientas cuya rápida y constante evolución nos dificulta entender los problemas que buscan resolver. Aquellos valientes novatos que siguen la consigna de [leer la Documentación](/blog/el-mejor-curso), al buscar el porqué de la existencia de una herramienta, podrán encontrar jeroglíficos egicipcios del siguiente tipo:
 
-> No me lo creo — El entrevistador
+> En esencia, webpack es un agrupador (bundler) estático de módulos para aplicaciones JavaScript modernas. Cuando webpack procesa tu aplicación, construye internamente un gráfico de dependencias desde uno o más puntos de entrada y luego combina cada módulo que tu proyecto necesita en uno o más paquetes, que son activos estáticos para servir tu contenido.\
+> (Descripción del [Sitio de Webpack](https://webpack.js.org/concepts/))
 
-Así respondería, al igual que el Centinela en la primera escena de la película de _'Monty Python and The Holy Grail'_ al ver que un extraño sujeto que, mientras choca dos cocos para simular el sonido del galope de un caballo, se hace llamar a sí mismo "Rey Arturo soberano de toda Inglaterra".
+Esta descripción, a ojos de alguien que recientemente aprendió la estructura básica de un sitio, simplemente no tiene sentido. Vamos al inicio.
 
-Nadie en su sano juicio diría que tiene 20, 10 o incluso 5 años de experiencia si está postulando a un trabajo de tipo entry-level, a menos que el mercado esté **realmente mal**.
+## El comienzo
 
----
+> "Aprende HTML, CSS y JavaScript" \
+> (Sabio de la antigua China, fecha desconocida)
 
-## Seamos Sinceros
+Sería un típico consejo para alguien que busca aprender a desarrollar sitios y aplicaciones web. Como muchos, así también comencé esta travesía hace más de una década. En aquel entonces los pasos —que están aún vigentes— eran bastante claros:
 
-Algunos pensarán, ¡Pero qué bestia! obviamente si nunca has trabajado en el mercado, en un equipo real de desarrollo, no tienes experiencia real.
+- Generar la estructura en HTML.
+- Darle estilo con CSS.
+- Agregar interactividad con JS.
 
-Déjenme decirles algo: Tienen toda la razón.
+```html #6
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi sitio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <h1>¡Hola desde HTML!</h1>
+  </body>
+</html>
+```
+
+```javascript
+// main.js
+console.log('¡Hola desde JavaScript!')
+```
+
+Digamos que ahora quiero agregar una funcionalidad mediante JavaScript a través de otro archivo en el HTML, puedo hacerlo agregando otra etiqueta en la cabecera como: `<script src="./js/otro-script.js"></script>`

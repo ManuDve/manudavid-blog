@@ -13,6 +13,13 @@ const projectsData = [
     href: 'https://github.com/ManuDve/CursosFrontEnd',
     preview: 'https://manudve.github.io/CursosFrontEnd/',
   },
+  {
+    title: 'WorkMining',
+    description: `Sitio Web realizado para WorkMining utilizando WordPress con gráficas customizadas, sistema de catálogo online y videos`,
+    imgSrc: '/static/images/workmining.jpg',
+    href: 'https://www.workmining.cl/',
+    preview: 'https://www.workmining.cl/',
+  },
 ]
 
 export default projectsData
