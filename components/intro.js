@@ -4,37 +4,28 @@ import { TypeAnimation } from 'react-type-animation'
 
 import {
   SiReact,
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
   SiTypescript,
   SiNextdotjs,
   SiNodedotjs,
-  SiPostgresql,
   SiTailwindcss,
   SiRedux,
-  SiFirebase,
-  SiGit,
-  SiVuedotjs,
-  SiWordpress,
+  SiAngular,
+  SiSpringboot,
+  SiPython,
 } from 'react-icons/si'
 
 const skills = [
   {
-    name: 'JavaScript',
-    logo: SiJavascript,
+    name: 'Spring Boot',
+    logo: SiSpringboot,
   },
   {
-    name: 'HTML',
-    logo: SiHtml5,
+    name: 'TypeScript',
+    logo: SiTypescript,
   },
   {
-    name: 'CSS',
-    logo: SiCss3,
-  },
-  {
-    name: 'Vue',
-    logo: SiVuedotjs,
+    name: 'Angular',
+    logo: SiAngular,
   },
   {
     name: 'React',
@@ -56,18 +47,9 @@ const skills = [
     name: 'Node.js',
     logo: SiNodedotjs,
   },
-
   {
-    name: 'Firebase',
-    logo: SiFirebase,
-  },
-  {
-    name: 'Git',
-    logo: SiGit,
-  },
-  {
-    name: 'Wordpress',
-    logo: SiWordpress,
+    name: 'Langchain',
+    logo: SiPython,
   },
 ]
 
@@ -76,13 +58,13 @@ const Skills = () => {
     <>
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
         <TypeAnimation
-          className="my-8 text-3xl font-extrabold leading-9 tracking-tight text-gray-800 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
+          className="my-8 text-3xl font-extrabold leading-9 tracking-tight text-gray-800 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14"
           sequence={[
             '¡Hola! Me llamo Manuel', // Types 'One'
             3000, // Waits 1s
-            'Construyo cosas web', // Deletes 'One' and types 'Two'
+            'Transformo ideas a código', // Deletes 'One' and types 'Two'
             3000, // Waits 2s
-            'Codificar me apasiona', // Types 'Three' without deleting 'Two'
+            'Construyo experiencias digitales', // Types 'Three' without deleting 'Two'
             3000,
             /* () => {
               console.log('Secuencia completada!')
@@ -97,21 +79,13 @@ const Skills = () => {
           {siteMetadata.description}
         </p>
         <p className="pb-4 text-lg leading-7 text-gray-700 dark:text-gray-400 md:pb-2">
-          En mi Blog podrás encontrar contenido sobre programación, desarrollo web, guías y relatos
-          de experiencias personales. Este sitio fue creado con{' '}
-          <strong>Nextjs y Tailwind CSS,</strong> te sugiero analizar este sitio con Lighthouse ;).
+          En mi blog comparto conocimientos sobre programación, desarrollo web, y reflexiones
+          basadas en proyectos reales. ¡Puedes contactarme mediante las siguientes Redes Sociales!
         </p>
-        <p className=" pb-6 text-lg leading-7 text-gray-700 dark:text-gray-400 md:pb-4">
-          ¿Estás interesado en sumarme a tu equipo? ¡Contáctame y conoce mi stack!
-        </p>
-
         <div className="mb-3 flex space-x-4">
           <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size="6" />
           <SocialIcon kind="github" href={siteMetadata.github} size="6" />
-          <SocialIcon kind="facebook" href={siteMetadata.facebook} size="6" />
-          <SocialIcon kind="youtube" href={siteMetadata.youtube} size="6" />
           <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="6" />
-          <SocialIcon kind="twitter" href={siteMetadata.twitter} size="6" />
         </div>
       </div>
 

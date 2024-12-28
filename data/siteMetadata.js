@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Manuel David Alfaro',
   headerTitle: '',
   description:
-    'Soy Desarrollador Web, Programador autodidacta y Diseñador Gráfico de profesión. Me dedico a crear experiencias y soluciones digitales funcionales de forma creativa.',
+    'Mi nombre es Manuel Alfaro, soy Desarrollador de Software especializado en Web Full Stack. Combino experiencia técnica y creatividad para construir aplicaciones escalables y eficientes.',
   language: 'es',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.manudavid.cl',
