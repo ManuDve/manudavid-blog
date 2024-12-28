@@ -1,15 +1,15 @@
 ---
 name: Manuel David Alfaro
 avatar: /static/images/manuavatar.jpg
-occupation: Desarrollador Front End
+occupation: Desarrollador de Software
 linkedin: https://www.linkedin.com/in/manueldavidalfaro/
 youtube: https://www.youtube.com/@manudeiv
 github: https://github.com/ManuDve/
 email: m.alfaroardiles@gmail.com
 ---
 
-¡Hola! Soy Diseñador Gráfico por profesión y Programador autodidacta. Desde el 2017 he realizado proyectos web en modalidad Freelance y actualmente me dedico al Desarrollo Front End.
+¡Hola! Soy Desarrollador de Software especializado en desarrollo web Full Stack, con formación en informática y profesional del Diseño Gráfico. Mi trayectoria comenzó como autodidacta, desarrollando proyectos de manera independiente, y he evolucionado para trabajar en equipos multidisciplinarios bajo metodologías ágiles.
 
-A través de mi Blog busco relatar mi experiencia; desde los inicios en la adolescencia como un vil script-kiddie, hasta la actualidad donde recorro el camino de la reconversión.
+He tenido la oportunidad de participar en proyectos para los sectores de banca, minería y tecnología, desarrollando aplicaciones web robustas y contribuyendo a soluciones innovadoras con herramientas como la inteligencia artificial. Mi enfoque combina habilidades técnicas sólidas, una comunicación efectiva y un compromiso con la calidad y el diseño, lo que me permite transformar ideas en productos funcionales y escalables.
 
-¿Estás en el rubro TI y necesitas un Desarrollador? <a href="mailto:m.alfaroardiles@gmail.com">¡Contáctame!</a>
+¿Estás interesado en colaborar conmigo? <a href="mailto:m.alfaroardiles@gmail.com">¡Hablemos!</a>
