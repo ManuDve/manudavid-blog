@@ -40,7 +40,7 @@ const skills = [
     logo: SiTailwindcss,
   },
   {
-    name: 'Nextjs',
+    name: 'Next.js',
     logo: SiNextdotjs,
   },
   {

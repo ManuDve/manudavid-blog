@@ -1,9 +1,9 @@
 const siteMetadata = {
-  title: 'Manuel David Alfaro - Desarrollador Web',
+  title: 'Manuel David Alfaro - Ingeniero de Software',
   author: 'Manuel David Alfaro',
   headerTitle: '',
   description:
-    'Mi nombre es Manuel Alfaro, soy Desarrollador de Software especializado en Web Full Stack. Combino experiencia técnica y creatividad para construir aplicaciones escalables y eficientes.',
+    'Mi nombre es Manuel Alfaro, soy Ingeniero de Software y Consultor especializado en Desarrollo Web Full Stack. Combino experiencia técnica y creatividad para construir aplicaciones escalables y eficientes.',
   language: 'es',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.manudavid.cl',
