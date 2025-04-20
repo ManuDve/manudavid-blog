@@ -15,7 +15,7 @@ const siteMetadata = {
   github: 'https://github.com/ManuDve/',
   //twitter: 'https://twitter.com/Twitter',
   //facebook: 'https://facebook.com',
-  youtube: 'https://www.youtube.com/@manudeiv/',
+  // youtube: 'https://www.youtube.com/@manudeiv/',
   linkedin: 'https://www.linkedin.com/in/manueldavidalfaro/',
   locale: 'es',
   analytics: {

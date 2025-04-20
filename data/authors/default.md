@@ -1,9 +1,8 @@
 ---
 name: Manuel David Alfaro
 avatar: /static/images/manuavatar.jpg
-occupation: Desarrollador de Software
+occupation: Ingeniero de Software
 linkedin: https://www.linkedin.com/in/manueldavidalfaro/
-youtube: https://www.youtube.com/@manudeiv
 github: https://github.com/ManuDve/
 email: m.alfaroardiles@gmail.com
 ---
